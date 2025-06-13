@@ -1,0 +1,39 @@
+body {
+    background-color: #161616;
+    color: white;
+    font-size: 22px;
+}
+
+a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 100;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+
+a:hover {
+    /* font-style: italic; */
+    transform: scale(1.1);
+    /* transition: transform 0.1s ease; */
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.categories {
+    font-size: 30px;
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+}
+
+h2 {
+    font-weight: 600;
+}
