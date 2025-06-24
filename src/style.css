@@ -32,6 +32,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 94vh;
+    overflow: visible;
 }
 
 h2 {
