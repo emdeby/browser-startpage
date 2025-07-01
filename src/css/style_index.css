@@ -11,21 +11,39 @@ body {
     font-size: 22px;
 }
 
-a {
+/* LINKS BEGIN */
+
+li a {
     color: rgb(194, 194, 194);
     text-decoration: none;
     display: inline-block;
-    font-weight: 100;
     line-height: 1.5;
     letter-spacing: 0.2em;
 }
 
-a:hover {
+
+li a:hover {
+    /* font-style: italic; */
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+    font-weight: 300;
+}
+
+h2 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+h2 a:hover {
     /* font-style: italic; */
     transform: scale(1.1);
     /* transition: transform 0.1s ease; */
-    font-weight: 300;
+    font-weight: 700;
 }
+
+/***************/
 
 ul {
     list-style-type: none;
@@ -39,6 +57,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 94vh;
+    font-weight: 100;
     /* overflow: visible; */
 }
 

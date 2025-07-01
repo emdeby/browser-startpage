@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "JetBrainsMono"
+}
+
+body {
+    background-color: #161616;
+    color: white;
+    font-family:
+        JetBrainsMono,
+        monospace;
+    font-size: 22px;
+}
+
+li a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.5;
+    letter-spacing: 0.2em;
+}
+
+
+li a:hover {
+    /* font-style: italic; */
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    height: 94vh;
+    font-weight: 100;
+}
