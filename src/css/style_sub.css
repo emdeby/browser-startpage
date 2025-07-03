@@ -32,10 +32,22 @@ ul {
     padding-left: 0;
     font-size: 30px;
     display: flex;
-    flex-direction: row;
-    gap: 150px;
+    flex-direction: column;
+    gap: 40px;
     justify-content: center;
     align-items: center;
     height: 94vh;
     font-weight: 100;
+}
+
+p a {
+    color: rgb(194, 194, 194);
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 0.2em;
+}
+
+p a:hover {
+    color: rgb(255, 255, 255);
+    /* transform: scale(1.05); */
 }
