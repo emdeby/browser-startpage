@@ -1,13 +1,7 @@
-@font-face {
-    font-family: "JetBrainsMono"
-}
-
 body {
     background-color: #161616;
     color: white;
-    font-family:
-        JetBrainsMono,
-        monospace;
+    font-family:JetBrainsMono;
     font-size: 22px;
 }
 
@@ -19,14 +13,14 @@ li a {
     display: inline-block;
     line-height: 1.5;
     letter-spacing: 0.2em;
+    transition: transform 0.1s ease;
 }
 
 
 li a:hover {
-    /* font-style: italic; */
     transform: scale(1.1);
     transition: transform 0.1s ease;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 h2 a {
@@ -34,13 +28,12 @@ h2 a {
     text-decoration: none;
     display: inline-block;
     line-height: 1.5;
+    transition: transform 0.1s ease;
 }
 
 h2 a:hover {
-    /* font-style: italic; */
     transform: scale(1.1);
-    /* transition: transform 0.1s ease; */
-    font-weight: 700;
+    transition: transform 0.1s ease;
 }
 
 /***************/
